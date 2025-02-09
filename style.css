@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin-top: 44px;
+    margin-left: 100px;
+    cursor: pointer;
+    color: rgba(152, 157, 156, 1);
+}
+
+.link {
+    margin-right: 23px;
+}
+
+.button-header {
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(102, 90, 225, 1);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.cx1 {
+    display: inline-block;
+}
+
+.cx2 {
+    display: inline-block;
+    height: 100%;
+}
+
+.logo {
+    width: 568px;
+    height: 500px;
+    margin: 217px 100px 0 125px;
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: rgba(81, 81, 81, 1);
+}
+
+h3 {
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.explore {
+    width: 239px;
+    height: 64px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(173, 255, 0, 1);
+    font-weight: 700;
+    font-size: 28px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 1);
+    line-height: 34px;
+}
+
+@media screen and (max-width:800px) {
+
+    .cx2 {
+        margin: 38px 0px;
+
+    }
+    
+    p {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .logo {
+        margin: 129px 10px 0px 25px;
+        width: 354px;
+        height: 317px;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        margin: 24px 64px 7px 64px;
+        line-height: 61px;
+    }
+
+    h3 {
+        width: 232px;
+        height: 37px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        margin: 17px 75px 17px 75px;
+        text-align: center;
+    }
+    .explore {
+        margin: 0px 0px 0px 75px;
+    }
+}
